@@ -29,13 +29,15 @@ body > header > nav > ul > li > a {
 }
 
 
-
 body > main > section > article > img {
     width: 200px;
     height: 140px;
     object-fit: cover;
 }
 
+body > main {
+    width: 70%;
+}
 
 body > main > section {
     float:  right;
@@ -45,6 +47,7 @@ body > main > section {
 
 body > main > section > article > p {
     align-items: right;
+    text-align: right;
     justify-content: right;
 }
 
